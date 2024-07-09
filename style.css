@@ -8,10 +8,9 @@
 
 body {
   font-family: "Azeret Mono";
-  background: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
   max-width: 1440px;
   margin: 0 auto;
-  border: 2px solid red;
 }
 
 /* navigation section start here */
@@ -20,7 +19,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid blue;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
 }
 nav h3 {
   color: rgb(13, 19, 33);
@@ -50,7 +50,6 @@ nav h3 {
 
 .banner-container {
   height: 650px;
-  border: 2px solid purple;
   background-image: url(image/assets/Hero-bg.png);
   background-position: center;
   background-size: cover;
@@ -66,7 +65,6 @@ nav h3 {
   justify-content: center;
   align-items: center;
   gap: 50px;
-  border: 2px solid purple;
   margin: 26px auto;
 }
 .banner-img {
@@ -103,14 +101,11 @@ nav h3 {
 /* hero section start here */
 .hero-section {
   width: 1140px;
-  height: 1400px;
   margin: 0 150px;
-  border: 1px solid blue;
 }
 .hero-container {
   width: 950px;
   height: 1230px;
-  border: 2px solid red;
   margin: 80px 100px 80px 100px;
   display: flex;
   flex-direction: column;
@@ -131,7 +126,6 @@ nav h3 {
 .box-container {
   width: 100%;
   height: 100%;
-  border: 1px solid yellow;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -142,7 +136,6 @@ nav h3 {
   display: flex;
   width: 850px;
   height: 240px;
-  border: 1px solid green;
   margin: 0 auto;
 }
 .box1 {
@@ -188,14 +181,12 @@ nav h3 {
 .youtube-container {
   width: 1180px;
   height: 775px;
-  border: 2px solid green;
   margin-top: 90px;
   color: rgb(13, 19, 33);
 }
 .youtube-content {
   width: 850px;
   height: 115px;
-  border: 2px solid red;
   margin: 0 auto;
   margin-bottom: 45px;
   display: flex;
@@ -224,13 +215,11 @@ nav h3 {
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 16px;
-  border: 2px solid red;
 }
 /* youtube end here */
 
 .hcj-container {
   height: 460px;
-  border: 1px solid red;
   color: rgb(13, 19, 33);
   margin-top: 150px;
   margin-bottom: 110px;
@@ -253,13 +242,11 @@ nav h3 {
   display: flex;
   height: 300px;
   justify-content: space-between;
-  border: 1px solid green;
 }
 .hcj-box {
   width: 365px;
   height: 300px;
   padding: 40px 40px 40px 40px;
-  border: 1px solid blueviolet;
   display: flex;
   flex-direction: column;
   gap: 22px;
@@ -337,7 +324,6 @@ nav h3 {
 }
 .submit-content {
   margin: 65px 50px 65px 50px;
-  border: 2px solid red;
   width: 1045px;
   height: 185px;
 }
@@ -362,7 +348,6 @@ nav h3 {
 .submit-form {
   width: 685px;
   height: 60px;
-  border: 1px solid skyblue;
   margin: 0 auto;
   margin-top: 25px;
 }
@@ -388,4 +373,32 @@ nav h3 {
   font-weight: 600;
   line-height: 23px;
   text-align: center;
+}
+
+/* footer start */
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+  margin-top: 80px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.foot-text {
+
+}
+.foot-text p {
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+.social-img{
+  display: flex;
+  gap: 23px;
 }
