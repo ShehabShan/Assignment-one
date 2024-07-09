@@ -187,7 +187,7 @@ nav h3 {
 
 .youtube-container {
   width: 1180px;
-  height: 750px;
+  height: 775px;
   border: 2px solid green;
   margin-top: 90px;
   color: rgb(13, 19, 33);
@@ -197,7 +197,7 @@ nav h3 {
   height: 115px;
   border: 2px solid red;
   margin: 0 auto;
-  margin-bottom: 80px;
+  margin-bottom: 45px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -207,22 +207,120 @@ nav h3 {
   font-size: 32px;
   font-weight: 800;
 }
-.youtube-img{
-    width: 1100px;
-    height: 550px;
-    margin: 0 auto;
-    background-image: url(image/assets/image.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 16px;
-    border: 2px solid red;
+.youtube {
+  height: 615px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.youtube-img {
+  width: 1100px;
+  height: 550px;
+  margin: 0 auto;
+  background-image: url(image/assets/image.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  border: 2px solid red;
 }
 /* youtube end here */
-.hcj-text{
-    width: 950px;
-    height: 115px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: ;
+
+.hcj-container {
+  height: 460px;
+  border: 1px solid red;
+  color: rgb(13, 19, 33);
+  margin-top: 150px;
+  margin-bottom: 110px;
 }
+.hcj-text {
+  width: 950px;
+  height: 115px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.hcj-text h2 {
+  font-size: 32px;
+  font-weight: 800;
+}
+.hcj-flex {
+  display: flex;
+  height: 300px;
+  justify-content: space-between;
+  border: 1px solid green;
+}
+.hcj-box {
+  width: 365px;
+  height: 300px;
+  padding: 40px 40px 40px 40px;
+  border: 1px solid blueviolet;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.hcj-box img {
+  width: 40px;
+  height: 45px;
+}
+.hcj-flex a {
+  color: rgb(13, 19, 33);
+}
+
+#box1 {
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+}
+#box2 {
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+}
+#box3 {
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+}
+/* youtube section end here */
+.target-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  color: rgb(13, 19, 33);
+}
+.js-content {
+  width: 1140px;
+  height: 220px;
+  display: flex;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+
+  background: rgb(255, 255, 255);
+  margin: 0 auto;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 40px 40px 40px;
+}
+.js-img img {
+  width: 95px;
+  height: 85px;
+}
+.js-text {
+  display: flex;
+  flex-direction: column;
+  width: 940px;
+  gap: 20px;
+}
+.js-text a {
+  color: rgb(13, 19, 33);
+}
+
+/* target container end here */
+
+
+/* submit container start */
