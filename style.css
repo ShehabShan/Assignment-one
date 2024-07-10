@@ -9,17 +9,17 @@
 body {
   font-family: "Azeret Mono";
   background-color: rgb(255, 255, 255);
-  max-width: 1440px;
-  margin: 0 auto;
 }
 
 /* navigation section start here */
 nav {
+  max-width: 1440px;
   height: 131px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-radius: 8px;
+  margin: 0 auto;
 }
 nav h3 {
   color: rgb(13, 19, 33);
@@ -54,7 +54,6 @@ nav h3 {
   height: 650px;
   background-image: url(image/assets/Hero-bg.png);
   background-position: center;
-  background-size: cover;
   background-repeat: no-repeat;
   color: rgb(13, 19, 33);
   margin-bottom: 140px;
@@ -95,7 +94,7 @@ nav h3 {
   font-size: 20px;
   cursor: pointer;
 }
-.banner-content button a{
+.banner-content button a {
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
@@ -103,6 +102,10 @@ nav h3 {
 /* banner section end here */
 
 /* hero section start here */
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
 .hero-section {
   width: 1140px;
   margin: 0 150px;
@@ -399,6 +402,7 @@ nav h3 {
 /* footer start */
 
 footer {
+  max-width: 1440px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -408,8 +412,8 @@ footer {
   margin-top: 80px;
   padding-left: 150px;
   padding-right: 150px;
+  margin: 0 auto;
 }
-
 
 .foot-text p {
   color: rgb(13, 19, 33);
