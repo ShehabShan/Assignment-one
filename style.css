@@ -96,6 +96,10 @@ nav h3 {
   font-size: 20px;
   cursor: pointer;
 }
+.banner-content button a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
 
 /* banner section end here */
 
